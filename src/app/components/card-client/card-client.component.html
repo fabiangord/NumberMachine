@@ -1,0 +1,11 @@
+<div class="container"> 
+    <div class="card">
+        <div class="card-body">
+            <form class="text-center">
+                <h1><b>Guess the number</b></h1>
+                <input type="number" placeholder="Add number (range 1 - 100)" class="form-control my-2" name="numberClient" [(ngModel)]="numberClient">
+                <button class="btn btn-primary" (click)="LogicMachine.play(numberClient)">Play</button>
+            </form>
+        </div>
+    </div>
+</div>

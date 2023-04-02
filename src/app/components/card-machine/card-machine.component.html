@@ -1,0 +1,13 @@
+<div class="container" *ngIf="LogicMachine.numberMachine">
+    <div class="container text-center">
+        <div class="card">
+            <h2 class="text-center">Machine Number</h2>
+            <h4>{{LogicMachine.numberMachine}}</h4>
+            <div class="card-body">
+                <h5 *ngIf="LogicMachine.mostrar === 1">El numero es mayor</h5>
+                <h5 *ngIf="LogicMachine.mostrar === 2">El numero es menor</h5>
+                <h5 *ngIf="LogicMachine.mostrar === 3">Adivinaste</h5>
+            </div>
+        </div>
+    </div>
+</div>
