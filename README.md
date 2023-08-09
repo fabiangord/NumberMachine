@@ -9,4 +9,4 @@ https://numbermachine-production.up.railway.app/
 
 # Servidor de desarrollo
 
-Para ejecutar el juego localmente, clona el repositorio e ingresa el comando 'ng serve -o' para ejecutar nuestra app, recuerda tener instalado Angular
+Para ejecutar el juego localmente, clona el repositorio e ingresa el comando 'ng serve -o' para ejecutar nuestra app, recuerda tener instalado Angular.
